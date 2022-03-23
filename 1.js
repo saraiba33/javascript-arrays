@@ -14,16 +14,12 @@ Note:
 
 function getVowels() {
     const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    let vowels = getVowels.filter(checkVowels)
+    let vowels = [alphabet[0], alphabet[4], alphabet[8], alphabet[14], alphabet[20], alphabet[24], ]
 
-    function checkVowels() {
+    return vowels
 
-        return vowels
+}
+module.exports = getVowels
 
-    }
-    console.log(vowels)
-    module.exports = getVowels
-
-    /*
-    You can run tests for this code to check your answers by running `npm run test-1`
-    */
+/*
+You can run tests for this code to check your answers by running `npm run test-1`*/
